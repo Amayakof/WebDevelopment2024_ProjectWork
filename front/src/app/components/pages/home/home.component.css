@@ -40,13 +40,13 @@ li a img{
 .product-item-footer{
     display: lex;
     justify-content: space-between;
-    aligh-center: fec-xstart
+    align-content: flex-start;
 }
 
 .origins{
-    flec: 9;
+    flex: 9;
 }
 
-,origins{
+.origins{
     border: 2rem;
 }
