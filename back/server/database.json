@@ -4,12 +4,14 @@
         "name": "Unicorn Racing Extravaganza",
         "description": "Race majestic unicorns through enchanted forests and mystical meadows in this whimsical racing game!",
         "price": "$19.99",
+        "stars": 5.6,
         "image": "./store-app/src/assets/img/games/1.png"
       },
       {
         "name": "Zombie Dance Party",
         "description": "Join the undead on the dance floor for a groovy night of brain-munching beats and monster moves!",
         "price": "$14.99",
+        "stars": 5.6,
         "image": "./store-app/src/assets/img/games/2.png"
       },
       {

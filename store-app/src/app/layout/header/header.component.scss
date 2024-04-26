@@ -1,44 +1,43 @@
-header{
+header {
     position: relative;
     background-color: #03045e;
     padding: 0;
     border-bottom: 1px solid red;
 }
 
-a{
+a {
     color: red;
 }
 
-a:hover{
+a:hover {
     background-color: red;
     color: white;
     cursor: pointer;
 }
 
-.container{
+.container {
     margin: 0 auto;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
-a.logo{
+a.logo {
     font-weight: bold;
     padding: 1rem;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-
 }
 
-ul a{
+ul a {
     padding: 1rem;
     display: inline-block;
 }
 
-a span{
+a span {
     background-color: red;
     color: white;
     padding: 0.1rem 0.45rem;
@@ -46,23 +45,25 @@ a span{
     font-size: 0.9rem;
 }
 
-menu-container{
+.menu-container {
     position: relative;
 }
 
-menu{
+.dropdown {
     position: absolute;
+    top: 100%; /* Position below the parent */
+    left: 0;
     z-index: 1;
     background-color: white;
     display: none;
 }
 
-.menu-container:hover .menu{
+.menu-container:hover .dropdown {
     display: block;
     background-color: white;
 }
 
-menu a{
+.dropdown a {
     width: 100%;
     min-width: 8rem;
 }
