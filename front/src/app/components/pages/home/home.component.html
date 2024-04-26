@@ -1,0 +1,23 @@
+<ul>
+    <li *ngFor = "let game of games">
+        <a routerLink = "./game/{{game.id}}">
+            <img [src] = "game.imageUrl" [alt] = "game.name"/>
+            <div class = "content">
+                <div class = "name">
+                    {{game.name}}
+                </div>
+            </div>
+            <div class = "product-item-footer">
+                <div *ngFor="let origin of game.origins">
+                    {{ origin }} <!-- Assuming 'origin' is a string property -->
+                </div>
+            </div>
+
+            <div class = "price">
+                <span>
+                    {{game.price}}
+                </span>
+            </div>
+        </a>
+    </li>
+</ul>
